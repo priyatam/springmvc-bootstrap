@@ -11,12 +11,20 @@
         </div>
         <div class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/" />">Home</a></li>
-            <li><a href="<c:url value="/getstarted" />">Get started</a></li>
-            <li><a href="<c:url value="/errors-validations" />">Errors &amp; Validations</a></li>
-            <li><a href="<c:url value="/form" />">Forms</a></li>
-            <li><a href="<c:url value="/fileupload" />">File Upload</a></li>
-            <li><a href="<c:url value="/misc" />">Misc</a></li>
+            <c:set var="cur" value="${pageContext.request.requestURI }" />
+
+            <c:url var="href" value="/" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">Home</a></li>
+            <c:url var="href" value="/getstarted" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">Get started</a></li>
+            <c:url var="href" value="/errors-validations" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">Errors &amp; Validations</a></li>
+            <c:url var="href" value="/form" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">Forms</a></li>
+            <c:url var="href" value="/fileupload" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">File Upload</a></li>
+            <c:url var="href" value="/misc" />
+            <li <c:if test="${cur.equals(href) }">class="active"</c:if> ><a href="${href }">Misc</a></li>
           </ul>
         </div>   			      		 
   </div>

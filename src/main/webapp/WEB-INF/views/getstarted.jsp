@@ -8,7 +8,7 @@
   <div class="tabbable" id="demo-tab"> <!-- Only required for left/right tabs -->
     <!-- Tab Definitions-->               
     <ul class="nav nav-tabs" id="getStartedTab">
-      <li class="active"><a href="#simple" data-toggle="tab">Simple Ajax</a></li>
+      <li><a href="#simple" data-toggle="tab">Simple Ajax</a></li>
       <li><a href="#mapping" data-toggle="tab">Mapping Requests</a></li>
       <li><a href="#data" data-toggle="tab">Obtaining Request Data</a></li>
       <li><a href="#responses" data-toggle="tab">Writing Responses</a></li>
