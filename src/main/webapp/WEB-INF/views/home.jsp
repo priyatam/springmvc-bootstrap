@@ -22,7 +22,7 @@
             <li> Message Converters </li>
             <li> Type Conversion </li>                
             <li> Layout Decoration (Sitemesh) </li>            
-          <ul>                                
+          </ul>
           </h3>           
         </div> 
         <div class="col-md-8"> 
