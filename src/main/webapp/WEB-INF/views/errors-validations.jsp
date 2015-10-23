@@ -8,7 +8,7 @@
   <div class="tabbable" id="demo-tab"> <!-- Only required for left/right tabs -->
     <!-- Tab Definitions-->               
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#validation" data-toggle="tab">Validation</a></li>
+      <li><a href="#validation" data-toggle="tab">Validation</a></li>
       <li><a href="#exceptions" data-toggle="tab">Exception Handling</a></li>      
     </ul>  
 
